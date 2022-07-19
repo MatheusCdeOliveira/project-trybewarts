@@ -87,7 +87,6 @@ h2 {
 }
 
 .input-main {
-  border: 1px solid black;
   flex-direction: row;
 
 }
@@ -128,7 +127,7 @@ h2 {
   padding: 6px 0;
   background-color: rgb(69, 13, 117);
   color: white;
-  font-weight: bold;
+  font-weight: 900;
   border-radius: 10px;
 }
 

@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <title>Projeto Trybewarts</title>
   </head>
   <body>
@@ -68,21 +71,23 @@
                 id="family3"/>
               Família FullStack</label>
           </div>
-          <div>
+          <div id="check-main">
             <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
             <br>
+            <div class="subcheck-main">
+              <input type="checkbox" name="Hofs" class="subject" value="HoFs" id="hof">
             <label for="hof">HoFs</label>
-            <input type="checkbox" name="Hofs" class="subject" value="HoFs" id="hof">
-            <label for="jest">Jest</label>
             <input type="checkbox" name="Jest" class="subject" value="Jest" id="jest">
-            <label for="prom">Promises</label>
+            <label for="jest">Jest</label>
             <input type="checkbox" name="Promises" class="subject" value="Promises" id="prom">
-            <label for="react">React</label>
+            <label for="prom">Promises</label>
             <input type="checkbox" name="React" class="subject" value="React" id="react">
-            <label for="sql">SQL</label>
+            <label for="react">React</label>
             <input type="checkbox" name="SQL" class="subject" value="SQL" id="sql">
-            <label for="python">Python</label>
+            <label for="sql">SQL</label>
             <input type="checkbox" name="Python" class="subject" value="Python" id="python">
+            <label for="python">Python</label>
+          </div>
           </div>
         </section>
         <hr>

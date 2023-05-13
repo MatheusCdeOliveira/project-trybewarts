@@ -28,59 +28,12 @@ const textarea = document.getElementById('textarea');
 const counter = document.getElementById('counter');
 
 const contador = (event) => {
-  const limite = 500;
+  const limit = 500;
   const count = textarea.value.length;
-  counter.innerText = Math.abs(count - limite);
-  if (count >= limite) {
+  counter.innerText = Math.abs(count - limit);
+  if (count >= limit) {
     event.preventDefault();
   }
 };
 
 textarea.addEventListener('input', contador);
-
-// const oldForm = document.getElementById('evaluation-form');
-// const nome = document.getElementById('input-name');
-// const lastname = document.getElementById('input-lastname');
-// const emailForm = document.getElementById('input-email');
-// const casa = document.getElementById('house');
-// const familia = document.querySelectorAll('input[name="family"]');
-// const materias = document.querySelectorAll('.subject');
-// const nota = document.querySelectorAll('[name="rate"]');
-
-// const inputDados = () => {
-//   const novoForm = document.getElementById('form-data').children;
-//   let mat = '';
-//   novoForm[0].innerText = `Nome: ${nome.value} ${lastname.value}`;
-//   novoForm[1].innerText = `Email: ${emailForm.value}`;
-//   novoForm[2].innerText = `Casa: ${casa.value}`;
-//   for (const a of familia) {
-//     if (a.checked === true) {
-//       novoForm[3].innerText = `Família: ${a.value}`;
-//     }
-//   }
-//   for (let index of materias) {
-//     if (index.checked === true) {
-//       mat += `${index.value}, `;
-//     }
-//     novoForm[4].innerText = `Matérias: ${mat}`;
-//   }
-//   for (const b of nota) {
-//     if (b.checked === true) {
-//       novoForm[5].innerText = `Avaliação: ${b.value}`;
-//     }
-//   }
-//   novoForm[6].innerText = `Observações: ${textarea.value} `;
-// };
-
-// const newForm = (event) => {
-//   event.preventDefault();
-//   const novoForm = document.getElementById('form-data');
-//   for (let index = 0; index < 7; index += 1) {
-//     const paragrafo = document.createElement('p');
-//     oldForm.style.display = 'none';
-//     novoForm.appendChild(paragrafo);
-//   }
-//   inputDados();
-// };
-
-// botaoSubmit.addEventListener('click', newForm);

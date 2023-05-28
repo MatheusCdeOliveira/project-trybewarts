@@ -1,4 +1,3 @@
-# :construction: README em construção ! :construction:
 <!-- Olá, Tryber!
 Esse é apenas um arquivo inicial para o README do seu projeto.
 É essencial que você preencha esse documento por conta própria, ok?
@@ -46,7 +45,7 @@ As seguintes habilidades foram necessárias para a realização desse projeto:
 <details>
   <summary><strong>🏪 O que foi desenvolvido</strong></summary><br />
 <h1 align="center">
-  <img alt="trybewarts" title="#Trybewarts" src="./assets/banner.png" />
+  <img alt="trybewarts" title="#Trybewarts" src="./images/trybewarts.png" />
 </h1>
   
 </details>
